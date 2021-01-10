@@ -69,8 +69,11 @@ body {
   justify-content: center;
   margin-top: 0.75rem;
 }
-.prevBtn,
+
 .nextBtn {
+  position: absolute;
+  top: 30%;
+  right: 27%;
   background-color: #546de5;
   font-size: 1.75rem;
   cursor: pointer;
@@ -93,6 +96,10 @@ body {
     height: 40vh;
    object-fit: cover;
   }
-  
+  .nextBtn{
+   position: absolute;
+   top: 57%;
+   left: 50%;
+  }
 }
 
